@@ -1,0 +1,29 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.contacts label {
+  font-size: 17px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+  transition: color 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts input {
+  font-size: 17px;
+  padding: 10px 15px;
+  margin-bottom: 17px;
+  border-radius: 4px;
+  border: 1px solid #21212133;
+  outline: none;
+  color: #212121;
+  transition: border-color 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}

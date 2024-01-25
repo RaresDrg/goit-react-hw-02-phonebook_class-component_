@@ -1,0 +1,41 @@
+.phonebook {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.phonebook h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.phonebook form {
+  display: flex;
+  flex-direction: column;
+}
+
+.phonebook label {
+  font-size: 17px;
+  color: #757575;
+  margin-bottom: 3px;
+  transition: color 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phonebook input {
+  font-size: 17px;
+  padding: 10px 15px;
+  margin-bottom: 17px;
+  border-radius: 4px;
+  border: 1px solid #21212133;
+  outline: none;
+  color: #212121;
+  transition: border-color 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phonebook input:focus {
+  border-color: rgb(76, 186, 80);
+}
+
+.phonebook label:has(+ input:focus) {
+  color: rgb(76, 186, 80);
+}

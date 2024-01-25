@@ -1,0 +1,28 @@
+.submitBtn {
+  padding: 10px 20px;
+  align-self: center;
+  background-color: rgb(76, 186, 80);
+  color: #000;
+  border-radius: 6px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 5px 0px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.submitBtn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.submitBtn:active {
+  opacity: 1;
+  transform: scale(1.1);
+  color: white;
+}
